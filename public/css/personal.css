@@ -1,0 +1,105 @@
+code, pre, samp {
+    font-family: "Monaco";
+    white-space: pre !important;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table code {
+    white-space: normal !important;
+}
+
+
+ul.list-toolbox{
+    margin-top: 16px;
+}
+
+textarea.form-control{
+    max-width: 100%;
+}
+
+.control-label{
+    line-height: 34px;
+}
+.form-group a.goto{
+    display: inline-block;
+    margin-left: 1em;
+}
+.form-group:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.box-prev-next{
+    width: 100%;
+}
+
+@media (max-width: 760px) {
+    .box-prev-next{
+        padding: 0 10px;
+    }
+}
+
+
+.comment{
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeeee;
+    width: 100%;
+}
+
+.comment-like a{
+    color: #e52a6f;
+}
+
+.comment-title{
+    font-weight: bold;
+}
+
+.comment-avatar{
+    float: left;
+    position: relative;
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+}
+.comment-avatar img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border:1px solid #eee;
+}
+
+.comment-meta{
+    float: left;
+}
+
+
+.comment-author {
+    color: #e52a6f;
+}
+
+.comment-time {
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, .3);
+}
+.comment-content{
+    padding-top: 12px;
+}
+
+
+
+.content.content-search {
+    border: 0;
+}
+.content-search ul{
+    padding: 10px;
+}
